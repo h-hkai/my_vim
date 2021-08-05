@@ -1,0 +1,87 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Bundle	Vundle.vim/autoload/vundle.vim	/^com! -nargs=+                                                Bundle        call vundle#config#bundle(<args>)$/;"	c
+BundleClean	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang                                          BundleClean   PluginClean<bang>$/;"	c
+BundleDocs	Vundle.vim/autoload/vundle.vim	/^com! -nargs=0                                                BundleDocs    PluginDocs$/;"	c
+BundleInstall	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete BundleInstall PluginInstall<bang> <args>$/;"	c
+BundleList	Vundle.vim/autoload/vundle.vim	/^com! -nargs=0 -bang                                          BundleList    PluginList<bang>$/;"	c
+BundleSearch	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete BundleSearch  PluginSearch<bang> <args>$/;"	c
+BundleUpdate	Vundle.vim/autoload/vundle.vim	/^com!                                                         BundleUpdate  PluginInstall!$/;"	c
+Plugin	Vundle.vim/autoload/vundle.vim	/^com! -nargs=+  -bar   Plugin$/;"	c
+PluginClean	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang   PluginClean$/;"	c
+PluginDocs	Vundle.vim/autoload/vundle.vim	/^com! -nargs=0         PluginDocs$/;"	c
+PluginInstall	Vundle.vim/autoload/vundle.vim	/^com! -nargs=* -bang -complete=custom,vundle#scripts#complete PluginInstall$/;"	c
+PluginList	Vundle.vim/autoload/vundle.vim	/^com! -nargs=0 -bang PluginList$/;"	c
+PluginSearch	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete PluginSearch$/;"	c
+PluginUpdate	Vundle.vim/autoload/vundle.vim	/^com! -nargs=* -complete=custom,vundle#scripts#complete PluginUpdate PluginInstall! <args>$/;"	c
+VundleClean	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang                                          VundleClean   PluginClean<bang>$/;"	c
+VundleDocs	Vundle.vim/autoload/vundle.vim	/^com! -nargs=0                                                VundleDocs    PluginDocs$/;"	c
+VundleInstall	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete VundleInstall PluginInstall<bang> <args>$/;"	c
+VundleSearch	Vundle.vim/autoload/vundle.vim	/^com! -nargs=? -bang -complete=custom,vundle#scripts#complete VundleSearch  PluginSearch<bang> <args>$/;"	c
+VundleUpdate	Vundle.vim/autoload/vundle.vim	/^com!                                                         VundleUpdate  PluginInstall!$/;"	c
+VundleUpdate	Vundle.vim/autoload/vundle.vim	/^com! -nargs=*       -complete=custom,vundle#scripts#complete VundleUpdate  PluginInstall! <args>$/;"	c
+b:did_ftplugin	Vundle.vim/ftplugin/vundlelog.vim	/^let b:did_ftplugin = 1$/;"	v
+bundle.is_pinned	Vundle.vim/autoload/vundle/config.vim	/^func! s:bundle.is_pinned()$/;"	f
+bundle.path	Vundle.vim/autoload/vundle/config.vim	/^func! s:bundle.path()$/;"	f
+check_bundle_name	Vundle.vim/autoload/vundle/config.vim	/^funct! s:check_bundle_name(bundle)$/;"	f
+create_changelog	Vundle.vim/autoload/vundle/scripts.vim	/^func! s:create_changelog() abort$/;"	f
+expand_path	Vundle.vim/autoload/vundle/config.vim	/^func! s:expand_path(path) abort$/;"	f
+fetch_scripts	Vundle.vim/autoload/vundle/scripts.vim	/^func! s:fetch_scripts(to)$/;"	f
+get_current_origin_url	Vundle.vim/autoload/vundle/installer.vim	/^func! s:get_current_origin_url(bundle) abort$/;"	f
+get_current_sha	Vundle.vim/autoload/vundle/installer.vim	/^func! s:get_current_sha(bundle)$/;"	f
+has_doc	Vundle.vim/autoload/vundle/installer.vim	/^func! s:has_doc(rtp) abort$/;"	f
+helptags	Vundle.vim/autoload/vundle/installer.vim	/^func! s:helptags(rtp) abort$/;"	f
+init	Vundle.vim/test/files/test.erl	/^init(_) ->$/;"	f	module:mmc_logmon_sup
+load_scripts	Vundle.vim/autoload/vundle/scripts.vim	/^func! s:load_scripts(bang)$/;"	f
+log	Vundle.vim/autoload/vundle/installer.vim	/^func! s:log(str, ...) abort$/;"	f
+make_sync_command	Vundle.vim/autoload/vundle/installer.vim	/^func! s:make_sync_command(bang, bundle) abort$/;"	f
+mmc_logmon_sup	Vundle.vim/test/files/test.erl	/^-module(mmc_logmon_sup).$/;"	m
+parse_name	Vundle.vim/autoload/vundle/config.vim	/^func! s:parse_name(arg)$/;"	f
+parse_options	Vundle.vim/autoload/vundle/config.vim	/^func! s:parse_options(opts)$/;"	f
+process	Vundle.vim/autoload/vundle/installer.vim	/^func! s:process(bang, cmd)$/;"	f
+rtp_add	Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add(dir) abort$/;"	f
+rtp_add_a	Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add_a()$/;"	f
+rtp_add_defaults	Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_add_defaults()$/;"	f
+rtp_rm	Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_rm(dir) abort$/;"	f
+rtp_rm_a	Vundle.vim/autoload/vundle/config.vim	/^func! s:rtp_rm_a()$/;"	f
+rtpath	Vundle.vim/autoload/vundle/config.vim	/^func! s:rtpath(opts)$/;"	f
+s:bundle	Vundle.vim/autoload/vundle/config.vim	/^let s:bundle = {}$/;"	v
+sign	Vundle.vim/autoload/vundle/installer.vim	/^func! s:sign(status)$/;"	f
+strip	Vundle.vim/autoload/vundle/installer.vim	/^func! s:strip(str)$/;"	f
+sync	Vundle.vim/autoload/vundle/installer.vim	/^func! s:sync(bang, bundle) abort$/;"	f
+system	Vundle.vim/autoload/vundle/installer.vim	/^func! s:system(cmd) abort$/;"	f
+view_changelog	Vundle.vim/autoload/vundle/scripts.vim	/^func! s:view_changelog()$/;"	f
+view_log	Vundle.vim/autoload/vundle/scripts.vim	/^func! s:view_log()$/;"	f
+vundle#begin	Vundle.vim/autoload/vundle.vim	/^func! vundle#begin(...) abort$/;"	f
+vundle#bundle_dir	Vundle.vim/autoload/vundle.vim	/^let vundle#bundle_dir = expand('$HOME\/.vim\/bundle', 1)$/;"	v
+vundle#bundles	Vundle.vim/autoload/vundle.vim	/^let vundle#bundles = []$/;"	v
+vundle#config#activate_bundles	Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#activate_bundles()$/;"	f
+vundle#config#bundle	Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#bundle(arg, ...)$/;"	f
+vundle#config#init	Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#init()$/;"	f
+vundle#config#init_bundle	Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#init_bundle(name, opts)$/;"	f
+vundle#config#require	Vundle.vim/autoload/vundle/config.vim	/^func! vundle#config#require(bundles) abort$/;"	f
+vundle#end	Vundle.vim/autoload/vundle.vim	/^func! vundle#end(...) abort$/;"	f
+vundle#installer#clean	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#clean(bang) abort$/;"	f
+vundle#installer#delete	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#delete(bang, dir_name) abort$/;"	f
+vundle#installer#docs	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#docs() abort$/;"	f
+vundle#installer#helptags	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#helptags(bundles) abort$/;"	f
+vundle#installer#install	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#install(bang, name) abort$/;"	f
+vundle#installer#install_and_require	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#install_and_require(bang, name) abort$/;"	f
+vundle#installer#list	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#list(bang) abort$/;"	f
+vundle#installer#new	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#new(bang, ...) abort$/;"	f
+vundle#installer#run	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#run(func_name, name, ...) abort$/;"	f
+vundle#installer#shellesc	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#shellesc(cmd) abort$/;"	f
+vundle#installer#shellesc_cd	Vundle.vim/autoload/vundle/installer.vim	/^func! vundle#installer#shellesc_cd(cmd) abort$/;"	f
+vundle#lazy_load	Vundle.vim/autoload/vundle.vim	/^let vundle#lazy_load = 0$/;"	v
+vundle#log	Vundle.vim/autoload/vundle.vim	/^let vundle#log = []$/;"	v
+vundle#rc	Vundle.vim/autoload/vundle.vim	/^func! vundle#rc(...) abort$/;"	f
+vundle#scripts#all	Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#all(bang, ...)$/;"	f
+vundle#scripts#bundle_names	Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#bundle_names(names)$/;"	f
+vundle#scripts#complete	Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#complete(a,c,d)$/;"	f
+vundle#scripts#reload	Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#reload() abort$/;"	f
+vundle#scripts#view	Vundle.vim/autoload/vundle/scripts.vim	/^func! vundle#scripts#view(title, headers, results)$/;"	f
+vundle#updated_bundles	Vundle.vim/autoload/vundle.vim	/^let vundle#updated_bundles = []$/;"	v
